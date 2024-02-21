@@ -25,10 +25,11 @@ const Footer = () => (
             alt="headset"
             className="w-[24px] h-[24px] object-contain"
           />
-          <a href="https://amity.edu/nspg/ayf2024/"><span className="font-normal text-[16px] text-white">
-            REGISTER
-          </span></a>
-          
+          <a href="https://amity.edu/nspg/ayf2024/">
+            <span className="font-normal text-[16px] text-white">
+              REGISTER
+            </span>
+          </a>
         </button>
       </div>
 
@@ -44,17 +45,14 @@ const Footer = () => (
           </p>
 
           <div className="flex gap-4">
-            {socials.map((social) => (
-              <a href={social.link}>
+            {socials.map((social, index) => (
+              <a key={index} href={social.link}>
                 <img
-                key={social.name}
-                src={social.url}
-                alt={social.name}
-                className="w-[24px] h-[24px] object-contain cursor-pointer"
+                  src={social.url}
+                  alt={social.name}
+                  className="w-[24px] h-[24px] object-contain cursor-pointer"
                 />
               </a>
-              
-
             ))}
           </div>
         </div>
