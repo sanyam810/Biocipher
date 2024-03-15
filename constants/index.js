@@ -86,12 +86,12 @@ export const socials = [
   {
     name: 'linkedin',
     url: '/linkedin.svg',
-    link: 'https://www.linkedin.com/in/amity-institute-of-biotechnology-817a5a2b1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
+    link: ''
   },
   {
     name: 'instagram',
     url: '/instagram.svg',
-    link: 'https://www.instagram.com/ayf_aib?igsh=eG11c2xuZ2oycWw='
+    link: ''
   },
   // {
   //   name: 'facebook',
