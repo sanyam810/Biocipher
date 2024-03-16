@@ -4,13 +4,13 @@ import { About, Explore, Feedback, GetStarted, Hero, Insights, WhatsNew, World }
 import Com from '../components/Com';
 
 const Page = () => (
-  <div className="bg-primary-black overflow-hidden">
+  <div className="bg-[#de5731] overflow-hidden">
     {/* <Navbar /> */}
     <Hero />
     <div className="relative">
       <About />
       <div className="gradient-03 z-0"/>
-      <Explore />
+      {/* <Explore /> */}
     </div>
     <div className="relative">
       {/* <GetStarted /> */}
