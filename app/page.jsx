@@ -2,6 +2,7 @@ import { Footer, Navbar } from '../components';
 import { About, Explore, Feedback, GetStarted, Hero, Insights, WhatsNew, World } from '../sections';
 
 import Com from '../components/Com';
+import ContactUs from '../components/ContactUs';
 
 const Page = () => (
   <div className="bg-[#de5731] overflow-hidden">
@@ -23,6 +24,7 @@ const Page = () => (
     {/* <Insights /> */}
     <div className="gradient-04 z-0"/>
     {/* <Feedback /> */}
+    <ContactUs />
     </div> 
     <Footer />
   </div>

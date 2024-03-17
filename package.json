@@ -9,11 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.3.3",
+    "@react-three/drei": "^9.102.5",
+    "@react-three/fiber": "^8.15.19",
     "eslint-config-next": "13.0.3",
-    "framer-motion": "^7.6.7",
+    "framer-motion": "^7.10.3",
+    "maath": "^0.10.7",
     "next": "13.0.3",
     "react": "^18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-hot-toast": "^2.4.1",
+    "react-router-dom": "^6.22.3",
+    "react-tilt": "^1.0.2",
+    "react-vertical-timeline-component": "^3.6.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
