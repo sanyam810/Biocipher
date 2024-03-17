@@ -17,7 +17,7 @@ const Page = () => (
       {/* <GetStarted /> */}
       <div className="gradient-04 z-0"/>
       <WhatsNew />
-      <Com />
+      {/* <Com /> */}
     </div>
     {/* <World /> */}
      <div className="relative">

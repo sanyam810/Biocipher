@@ -85,7 +85,7 @@ const ContactUs = () => {
         </div>
 
         <form
-          className="w-full md:max-w-md mx-auto md:w-2/3 p-4 shadow-md rounded-lg"
+          className="w-full md:max-w-md mx-auto md:w-2/3 p-4 shadow-md rounded-lg transition duration-300 ease-in-out hover:shadow-lg dark:hover:shadow-black/30 bg-[#fe7923]"
           ref={formRef}
           onSubmit={sendEmail}
         >

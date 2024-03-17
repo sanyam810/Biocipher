@@ -24,12 +24,20 @@ const About = () => (
         variants={fadeIn("up", "tween", 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-white text-[20px] text-justify  pt-4"
       >
-        Welcome to DEVLUTION, organized by Google Developer Student Clubs (GDSC) Amity University, Noida and IINTM. Join us for an exciting event showcasing the latest in gaming and game development!
+      
         
-        DEVLUTION kicks off with a thrilling Nationwide BGMI Contest featuring the popular game Battlegrounds Mobile India (BGMI). Following the competition, attendees will have the opportunity to participate in a session on game development, where they can meet and interact with game developers and famous gamers.
-        
-        Don't miss this opportunity to connect with gaming enthusiasts, developers, students, and industry professionals. Stay tuned for updates on registration and sponsorship opportunities!
 
+At Devlution, we're not just revolutionizing gaming, we're evolutionizing development. We're the platform where the future of game development is unlocked, and the gaming space is redefined.
+
+Gear up for an electrifying fusion of competition, innovation, and camaraderie, curated by GDSC Amity University, Noida, and GDSC IINTM.
+
+At the heart of Devlution lies our BGMI gaming tournament, where players from across the digital landscape converge to display their mastery and compete for the ultimate prize. It's more than just a competition; it's a showcase of skill, strategy, and the sheer thrill of victory.
+
+But Devlution isn't just about gameplay; it's about the journey to get there. Our workshop series brings together industry leaders and visionaries to share their insights into the ever-evolving landscape of game development. From dissecting winning strategies to exploring the cutting edge of development technology, these sessions offer a rare opportunity to learn from the best and stay ahead of the curve.
+
+And let's not forget the interactive mini-games peppered throughout the event. Beyond the main stage battles and workshop sessions, these smaller engagements provide the perfect opportunity to connect with fellow enthusiasts, forge new friendships, and celebrate our shared passion for gaming.
+
+Join us this April for an unforgettable experience where passion meets innovation, and together, let's usher in a new era of gaming excellence at Devlution.
 
       </motion.p>
 
@@ -85,13 +93,13 @@ const About = () => (
         </div>
       </div>
 
-      <a href="">
-        <div className="bg-[#f59e1e] rounded-xl w-72 h-24 mt-10">
-          <div className="text-6xl text-white font-bold ml-6 mt-6 pt-4">
-            Register
+      {/* <a href="/"> */}
+        <div className="bg-[#f59e1e] rounded-xl w-90 h-24 mt-10 px-7 shadow-md  transition duration-300 ease-in-out hover:shadow-lg dark:hover:shadow-black/30">
+          <div className="text-6xl text-white font-bold  pt-4 ">
+            Coming Soon
           </div>
         </div>
-      </a>
+      {/* </a> */}
     </motion.div>
   </section>
 );
