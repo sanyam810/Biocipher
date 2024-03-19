@@ -24,6 +24,7 @@ const Page = () => (
     {/* <Insights /> */}
     <div className="gradient-04 z-0"/>
     {/* <Feedback /> */}
+    {/* // eslint-disable-next-line */}
     <ContactUs />
     </div> 
     <Footer />

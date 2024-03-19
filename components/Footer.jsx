@@ -25,11 +25,9 @@ const Footer = () => (
             alt="headset"
             className="w-[24px] h-[24px] object-contain"
           />
-          <a href="">
-            <span className="font-normal text-[16px] text-white">
-              REGISTER
-            </span>
-          </a>
+          <span className="font-normal text-[16px] text-white">
+            <p>REGISTER</p>
+          </span>
         </button>
       </div>
 
@@ -46,7 +44,7 @@ const Footer = () => (
 
           <div className="flex gap-4">
             {socials.map((social, index) => (
-              <a key={index} href={social.link}>
+              <a key={index} href={social.link} target="_blank" rel="noopener noreferrer">
                 <img
                   src={social.url}
                   alt={social.name}

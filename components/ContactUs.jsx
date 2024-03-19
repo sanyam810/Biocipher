@@ -1,15 +1,14 @@
-"use client"
+'use client';
 
-import React, { useRef } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
 // import styled from 'styled-components';
 import toast from 'react-hot-toast';
-import { useState, useEffect } from 'react';
 
 const ContactUs = () => {
-  const serviceId = process.env.REACT_APP_SERVICE_ID;
-  const templateId = process.env.REACT_APP_TEMPLATE_ID;
-  const publicKey = process.env.REACT_APP_PUBLIC_KEY;
+  // const serviceId = process.env.REACT_APP_SERVICE_ID;
+  // const templateId = process.env.REACT_APP_TEMPLATE_ID;
+  // const publicKey = process.env.REACT_APP_PUBLIC_KEY;
   const [isLargeScreen, setIsLargeScreen] = useState(false);
 
   useEffect(() => {
@@ -31,10 +30,9 @@ const ContactUs = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    
 
     emailjs
-      .sendForm("service_jn9n38w", "template_w5qvodr", formRef.current, "MzhNodEVDWF5nmXdj")
+      .sendForm('service_jn9n38w', 'template_w5qvodr', formRef.current, 'MzhNodEVDWF5nmXdj')
       .then((result) => {
         console.log(result.text);
         alert('Message sent successfully!');
@@ -64,12 +62,12 @@ const ContactUs = () => {
                 <div>
                   doubts?
                 </div>
-            </div>
-            <div className="text-6xl font-bold" style={{ paddingRight: '20px',textAlign:'left' }}>
+              </div>
+              <div className="text-6xl font-bold" style={{ paddingRight: '20px', textAlign: 'left' }}>
                 Let us know!
-            </div>
-            <div className="text-2xl" style={{textAlign:'left',paddingTop:'20px'}}>
-                We&apos;d love to connect with you.
+              </div>
+              <div className="text-2xl" style={{ textAlign: 'left', paddingTop: '20px' }}>
+                We'd love to connect with you.
               </div>
             </>
           ) : (
@@ -78,7 +76,7 @@ const ContactUs = () => {
                 Your feedback helps us improve.
               </div>
               <div className="text-lg">
-                We&apos;d love to connect with you.
+                We'd love to connect with you.
               </div>
             </>
           )}
@@ -122,7 +120,7 @@ const ContactUs = () => {
               name="message"
               id="message"
               rows="4"
-            ></textarea>
+            />
           </div>
 
           <input
