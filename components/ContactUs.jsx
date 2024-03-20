@@ -88,7 +88,7 @@ const ContactUs = () => {
           onSubmit={sendEmail}
         >
           <div className="mb-4">
-            <label className="block mb-2 text-gray-700" htmlFor="user_name">
+            <label className="block mb-2 text-black font-bold" htmlFor="user_name">
               Enter your name
             </label>
             <input
@@ -100,7 +100,7 @@ const ContactUs = () => {
           </div>
 
           <div className="mb-4">
-            <label className="block mb-2 text-gray-700" htmlFor="user_email">
+            <label className="block mb-2 text-black font-bold" htmlFor="user_email">
               Enter your email
             </label>
             <input
@@ -112,7 +112,7 @@ const ContactUs = () => {
           </div>
 
           <div className="mb-4">
-            <label className="block mb-2 text-gray-700" htmlFor="message">
+            <label className="block mb-2 text-black font-bold" htmlFor="message">
               Message
             </label>
             <textarea
