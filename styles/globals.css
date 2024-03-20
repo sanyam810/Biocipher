@@ -40,7 +40,7 @@
   top: 0px;
   right: 0px;
 
-  background: #310000;
+  background: #fdae37ad;
   filter: blur(190px);
 }
 
@@ -59,8 +59,8 @@
   left: 20%;
   top: 5%;
 
-  background: #b19d03;
-  filter: blur(175px);
+  background: #f19a1893;
+  filter: blur(115px);
   transform: rotate(-114.2deg);
 }
 
@@ -71,7 +71,7 @@
   left: 30%;
   top: 10%;
 
-  background: #c9b202;
+  background: #f19a18c7;
   filter: blur(200px);
   transform: rotate(-53.13deg);
 }
@@ -91,7 +91,7 @@
   left: 0px;
   top: 0px;
 
-  background: #fefa7c;
+  background: #fdae37ad;
   filter: blur(175px);
 }
 
